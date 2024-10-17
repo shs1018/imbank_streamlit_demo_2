@@ -26,7 +26,7 @@ def plot_plotly(df):
     fig.add_trace(
         go.Scatter(x = df['orbital_period'], 
                    y = df['distance'],
-                   made = 'markers')
+                   mode = 'markers')
     )
     st.plotly_chart(fig)
 
