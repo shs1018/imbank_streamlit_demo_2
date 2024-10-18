@@ -262,8 +262,9 @@ def main():
         st.header("Choose 2 Columns")
         cols = st.multiselect('columns', data_loan.columns, max_selections = 2 ,key = '5')
 
-        vis_barchart(data_loan, target ,cols)
-        vis_piechart(data_loan, target, cols)
+        if st.button("push me!"):
+            vis_barchart(data_loan, target ,cols)
+            vis_piechart(data_loan, target, cols)
 
 
 
