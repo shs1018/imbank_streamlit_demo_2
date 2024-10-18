@@ -169,27 +169,27 @@ def main():
     with tab1:
         st.title("Loan Prediction")
 
-        st.header("Please Enter Your Credit Info!")
-        person_income_val = st.number_input('Input your annual income!')
-        person_home_ownership_val = st.selectbox("Choose your current home ownership status!", ['OWN', 'RENT', 'MORTGAGE', 'OTHER'])
-        person_cred_hist_length = st.number_input('Input your credit history length!')
-        person_emp_length = st.number_input('Input your employeed length!')
-        person_default_on_file = st.selectbox("Choose 'Y' if you have Defalut experiance", ['Y', 'N'])
+        st.header("Please Enteit Info!")
+        person_income_val = st.number_input('Input youal income!')
+        person_home_ownership_val = st.selectbox("Choose your curree ownershius!", ['OWN', 'RENT', 'MORTGAGE', 'OTHER'])
+        person_cred_hist_length = st.number_input('In your credit history length!')
+        person_emp_length = st.number_input('Input your emngth!')
+        person_default_on_file = st.selectbox("Choose 'Y' ce", ['Y', 'N'])
         
-        if st.button("Run Predict Model"):
+        if st.button("Run Predict Model", key = 1):
            st.write('미구현!')
      
     with tab2:
         st.title("Risk Prediction")
 
-        st.header("Please Enter Your Credit Info!")
-        person_income_val = st.number_input('Input your annual income!')
-        person_home_ownership_val = st.selectbox("Choose your current home ownership status!", ['OWN', 'RENT', 'MORTGAGE', 'OTHER'])
-        person_cred_hist_length = st.number_input('Input your credit history length!')
-        person_emp_length = st.number_input('Input your employeed length!')
-        person_default_on_file = st.selectbox("Choose 'Y' if you have Defalut experiance", ['Y', 'N'])
+        st.header("Please Eit Info!")
+        person_income_val = st.number_input('Input yl income!')
+        person_home_ownership_val = st.selectbox("Choose your come ownership status!", ['OWN', 'RENT', 'MORTGAGE', 'OTHER'])
+        person_cred_hist_length = st.number_input('Input your creditgth!')
+        person_emp_length = st.number_input('Inpuength!')
+        person_default_on_file = st.selectbox("Choose 'Y' if yoalut experiance", ['Y', 'N'])
         
-        if st.button("Run Predict Model"):
+        if st.button("Run Predict Model", key = 2):
            st.write('미구현!')
          
     with tab3:
@@ -202,7 +202,7 @@ def main():
         person_emp_length = st.number_input('Input your employeed length!')
         person_default_on_file = st.selectbox("Choose 'Y' if you have Defalut experiance", ['Y', 'N'])
         
-        if st.button("Run Predict Model"):
+        if st.button("Run Predict Model", key = 3):
            st.write('미구현!')
            '''
            # Personal_data
