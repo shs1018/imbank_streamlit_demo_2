@@ -12,7 +12,7 @@ def main():
     st.title('SelectBox 사용')
 
     pg = load_data()
-    st.markdown('##Raw Data')
+    st.markdown('##Raw Data##')
     st.dataframe(pg)
 
     st.markdown("<hr>", unsafe_allow_html = True)
