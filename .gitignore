@@ -163,4 +163,3 @@ cython_debug/
 
 #streamlit과 dataset폴더를 안 보이게 해 줘야 한다.
 .streamlit/
-dataset/
